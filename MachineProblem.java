@@ -1,7 +1,7 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Dionisio_MachineLearning1 {
+public class Dionisio_MachineProblem1 {
     static Scanner userInput = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -91,11 +91,11 @@ public class Dionisio_MachineLearning1 {
     }
 
     public static String combineArray(String[] input) {
-        StringBuilder newWord = new StringBuilder();
+        StringBuilder newString = new StringBuilder();
         for (String s : input) {
-            newWord.append(s);
+            newString.append(s);
         }
-        return String.valueOf(newWord);
+        return String.valueOf(newString);
     }
 
     public static void displayPrimeNumbers(int end) {
