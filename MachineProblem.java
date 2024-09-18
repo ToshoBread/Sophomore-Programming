@@ -13,7 +13,7 @@ public class Dionisio_MachineLearning1 {
             System.out.println("1. Sum of a digit");
             System.out.println("2. Reverse a number");
             System.out.println("3. Display all the prime numbers from 2 to a given number");
-            System.out.println("4. Check if a word is a palindrome");
+            System.out.println("4. Check for palindrome");
             System.out.println("5. Check if a number is odd or even");
             System.out.println("6. Exit");
             System.out.print("Enter option [1-6]: ");
@@ -46,7 +46,7 @@ public class Dionisio_MachineLearning1 {
     }
 
     public static String stringInput() {
-        System.out.print("Enter a word: ");
+        System.out.print("Enter a word/number: ");
         return userInput.next();
     }
 
